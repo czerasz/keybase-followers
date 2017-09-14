@@ -1,0 +1,26 @@
+{
+  "name": "keybase-get-followers",
+  "version": "1.0.0",
+  "description": "Fetch keybase.io user followers",
+  "main": "src/keybase-get-followers.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive",
+    "lint": "eslint src/*.js test/*.js"
+  },
+  "author": {
+    "name" : "Michał Czeraszkiewicz",
+    "email" : "contact@czerasz.com",
+    "url" : "http://czerasz.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.3"
+  }
+}
